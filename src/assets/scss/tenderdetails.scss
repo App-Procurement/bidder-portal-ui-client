@@ -1,0 +1,182 @@
+.tenderdetails-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .page-title {
+        h1 {
+            color: #000000;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            color: #6f6f6f;
+        }
+    }
+
+    .white-box {
+        .box-heading {
+            border-bottom: 1px solid #ebebeb;
+
+            h3 {
+                color: #6418C3;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 400;
+                color: #A5A5A5;
+                margin-bottom: 10px;
+            }
+        }
+
+        .details-text {
+            display: block;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 0px;
+
+            label {
+                display: inline-block;
+                vertical-align: top;
+                width: 59%;
+                font-size: 15px;
+                line-height: 24px;
+                color: #000000;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: relative;
+                padding-right: 10%;
+            }
+
+            span {
+                position: absolute;
+                right: 0;
+                width: 10%;
+                font-size: 15px;
+                line-height: 24px;
+                color: #000000;
+                font-weight: 500;
+                text-align: center;
+            }
+
+            p {
+                display: inline-block;
+                width: 40%;
+                font-size: 15px;
+                line-height: 24px;
+                color: #000000;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+
+        .documents-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            min-height: 209px;
+
+            .documents-text {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #dddddd;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+
+                label {
+                    display: flex;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #000000;
+                    font-weight: 600;
+                }
+
+                span {
+                    display: flex;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: #8E8E8E;
+                    font-weight: 500;
+                }
+            }
+
+            .download-documents {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding-top: 9px;
+                padding-bottom: 9px;
+
+                .success-btn {
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+        .critical-contents {
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 299px;
+            .content {
+                display: block;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+
+                label {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 39%;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #000000;
+                    font-weight: 600;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                }
+
+                span {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 10%;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #000000;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                p {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 49%;
+                    font-size: 15px;
+                    line-height: 24px;
+                    color: #000000;
+                    font-weight: 500;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+}

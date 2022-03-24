@@ -1,0 +1,85 @@
+.search-tender-container {
+    display: block;
+    width: 100%;
+
+    .form-buttons {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .favorite-btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+        width: 100%;
+
+        .success-btn {
+            font-size: 13px;
+        }
+    }
+
+    .captcha-content {
+        margin-top: 50px;
+        padding-top: 50px;
+
+        .form-group {
+            display: block;
+
+            .form-control {
+                width: 31%;
+                display: inline-block;
+            }
+        }
+
+        .captcha-text {
+            display: inline-flex;
+            vertical-align: middle;
+
+            h2 {
+                margin: 0 20px;
+                font-size: 25px;
+                line-height: 30px;
+            }
+
+            span {
+                color: #0eb8d2;
+                font-size: 25px;
+                line-height: 30px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: 400;
+                color: #000000;
+                margin: 0 0 0 20px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 900px) {
+    .search-tender-container {
+        .captcha-content {
+            margin-top: 30px;
+
+            .form-group {
+                .form-control {
+                    width: 100%;
+                }
+            }
+
+            .captcha-text {
+                padding-top: 10px;
+
+                h2 {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

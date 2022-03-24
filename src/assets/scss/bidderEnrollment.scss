@@ -1,0 +1,86 @@
+.bidder-enrollment-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 30px;
+
+    .bidder-enrollment-form {
+        display: block;
+        width: 100%;
+
+        h3 {
+            display: block;
+            font-size: 24px;
+            line-height: 30px;
+            color: #6418C3;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .white-box {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .form-group {
+            .MuiOutlinedInput-root {
+                display: block;
+                width: 100%;
+            }
+
+            legend {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 500;
+                color: #000000;
+                padding-bottom: 5px;
+            }
+
+            .form-control {
+                padding: 0;
+                background-color: #fff;
+                border: 1px solid #707070;
+                border-radius: 5px;
+
+                input {
+                    height: 48px;
+                    box-sizing: border-box;
+                    padding: 10px 15px;
+                }
+            }
+
+            p {
+                font-size: 12px;
+                margin-top: 5px;
+
+                span {
+                    color: #6418C3;
+                }
+            }
+
+            select.form-control {
+                height: 48px;
+                box-sizing: border-box;
+                padding: 10px 15px;
+            }
+        }
+
+        .bidder-enrollment-buttons {
+            text-align: right;
+            margin-top: 30px;
+
+            .secondary-btn {
+                font-weight: 400;
+                background-color: #F1F1F1;
+                color: #707070;
+            }
+
+            .success-btn {
+                font-weight: 400;
+                background: transparent linear-gradient(88deg, #6418C3 0%, #8020D4 100%) 0% 0% no-repeat padding-box;
+            }
+        }
+    }
+}

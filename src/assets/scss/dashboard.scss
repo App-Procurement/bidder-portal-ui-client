@@ -1,0 +1,136 @@
+.dashboard-container {
+    display: block;
+    width: 100%;
+
+    .latest-bottom-text {
+        margin-top: 30px;
+
+        .latest-text {
+            color: #a5a5a5;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    .tender-search-box {
+        display: block;
+        width: 100%;
+        padding-top: 60px;
+
+        .enrollment-text {
+            display: block;
+            width: 100%;
+
+            strong {
+                display: block;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #000000;
+            }
+
+            a {
+                display: block;
+                margin-bottom: 25px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #000000;
+
+                &:hover {
+                    color: #6418c3;
+                }
+            }
+        }
+
+        .search-box {
+            border: 2px solid #6418c3;
+            display: block;
+            padding: 40px 20px 60px;
+
+            label {
+                display: block;
+                margin-bottom: 20px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #000000;
+            }
+
+            .search-field {
+                display: block;
+                width: 100%;
+
+                .MuiOutlinedInput-root {
+                    border: none;
+                    border-radius: 30px;
+                    background-color: #fafafa !important;
+                    padding-left: 15px;
+                    padding-right: 15px;
+
+                    svg {
+                        color: #6418c3;
+                    }
+
+                    input {
+                        font-weight: 600;
+                        font-size: 14px;
+                        color: #000000;
+                        background-color: #fafafa;
+                    }
+
+                    fieldset {
+                        display: none;
+                    }
+                }
+
+                p {
+                    font-size: 11px;
+                    margin-top: 10px;
+                }
+
+            }
+        }
+
+        .tender-search-buttons {
+            display: block;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border: none;
+
+            .success-btn {
+                border-radius: 10px;
+                margin-bottom: 20px;
+                width: 80%;
+                border: none;
+                justify-content: flex-start;
+                align-items: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 10px;
+
+                span {
+                    display: inline-block;
+
+                    svg {
+                        font-size: 26px;
+                        vertical-align: middle;
+                        margin-top: -4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard-container {
+        .latest-bottom-text {
+            .success-btn{
+                margin-top: 20px;
+            }
+        }
+    }
+}
